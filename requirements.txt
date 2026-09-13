@@ -1,0 +1,13 @@
+# CustomBot - Dépendances Python
+# Core
+python-dotenv==1.0.0
+
+# Optionnel: Pour intégrations spécifiques
+# discord.py==2.3.0          # Pour bot Discord
+# python-telegram-bot==20.0  # Pour bot Telegram
+# requests==2.31.0           # Pour requêtes HTTP
+
+# Développement
+pytest==7.4.0
+pylint==2.17.0
+black==23.7.0

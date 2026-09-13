@@ -1,0 +1,35 @@
+# Environnement virtuel
+venv/
+env/
+.env
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Données locales
+data/
+*.db
+*.sqlite
+
+# Plugins
+plugins/
+
+# Distribution
+build/
+dist/
+*.egg-info/

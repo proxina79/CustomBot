@@ -1,0 +1,35 @@
+{
+  "bot_name": "CustomBot",
+  "prefix": "/",
+  "version": "1.0.0",
+  "debug": true,
+  "log_messages": true,
+  "language": "fr",
+  "settings": {
+    "max_message_length": 2000,
+    "command_timeout": 30,
+    "enable_plugins": true
+  },
+  "commands": {
+    "aide": {
+      "enabled": true,
+      "description": "Affiche l'aide"
+    },
+    "bonjour": {
+      "enabled": true,
+      "description": "Salue l'utilisateur"
+    },
+    "heure": {
+      "enabled": true,
+      "description": "Affiche l'heure"
+    },
+    "statut": {
+      "enabled": true,
+      "description": "Affiche le statut"
+    },
+    "echo": {
+      "enabled": true,
+      "description": "Répète le message"
+    }
+  }
+}
